@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8080')
+const socket = io('https://kaleidoscopic-cranachan-63f14d.netlify.app/')
 
 const msgInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
