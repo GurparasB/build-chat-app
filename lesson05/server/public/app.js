@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:3500')
+const socket = io('http://localhost:8080')
 
 const msgInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
